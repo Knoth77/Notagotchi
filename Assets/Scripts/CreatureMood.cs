@@ -160,6 +160,7 @@ public class CreatureMood : MonoBehaviour
         for (int x = 0; x < loadedIcons.Length; x++)
         {
             var name = ((Sprite)loadedIcons[x]).name;
+            Debug.Log(name);
             SpriteDict.Add(name, (Sprite)loadedIcons[x]);
         }
     }
