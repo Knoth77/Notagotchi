@@ -41,9 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1506952703
+    locked: 0
+  - name: Backdrop
+    uniqueID: 280476541
+    locked: 0
   - name: Creature
     uniqueID: 3609941625
     locked: 0
-  - name: Background
-    uniqueID: 1506952703
+  - name: Companion
+    uniqueID: 1569929661
     locked: 0

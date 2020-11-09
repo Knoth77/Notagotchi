@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
-public class SaveSystem
+public static class SaveSystem
 {
 
     private static string _filePath = "/player.milk";
@@ -25,6 +24,8 @@ public class SaveSystem
     public static PlayerData LoadGame()
     {
         string path = Application.persistentDataPath + _filePath;
+
+        Debug.Log(path);
 
         if (File.Exists(path))
         {
